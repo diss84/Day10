@@ -1,16 +1,15 @@
-lion = {
+    var lion = {
     name: "Simba",
     legs: 4,
     tails: 1,
 }
-lion["roar"] = "roar-roar";
-function myFunction(lion) {
+function myFunction() {
     // Only change code below this line
-    lion["roar"] = "roar-roar";
+    lion.roar = "roar-roar";
     return lion;
     // Only change code above this line
 }
-myFunction(lion["roar"]);
+myFunction("roar");
 
 console.log(myFunction("roar"));
 
